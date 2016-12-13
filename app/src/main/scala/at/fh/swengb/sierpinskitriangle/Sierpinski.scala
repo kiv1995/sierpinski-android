@@ -34,7 +34,6 @@ class Sierpinski(val context: Context, val attrs: AttributeSet) extends View(con
     val stopx2 = canvas.getWidth/2
     val stopy2 = Math.sqrt(stopx1 * stopx1 - stopx1/2 * stopx1/2).toFloat +10
     canvas.drawLine(startx2,starty2,stopx2,stopy2,paint)
-    canvas.drawLi
   }
 
 
